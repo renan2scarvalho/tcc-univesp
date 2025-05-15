@@ -12,6 +12,8 @@ rasterio = "^1.4.3"
 scikit-learn = "^1.6.1"
 imblearn = "^0.0"
 pandas = "^2.2.3"
+xgboost = "^3.0.1"
+shap = "^0.47.2"
 
 [tool.poetry.group.dev.dependencies]
 pytest = "^8.3.5"
