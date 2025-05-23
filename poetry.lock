@@ -1323,6 +1323,21 @@ files = [
 traitlets = "*"
 
 [[package]]
+name = "mpl-tools"
+version = "0.4.1"
+description = "Tools for working with matplotlib"
+optional = false
+python-versions = "<4.0,>=3.9"
+groups = ["main"]
+files = [
+    {file = "mpl_tools-0.4.1-py3-none-any.whl", hash = "sha256:328dd4a136b4d71ae1872c622928b2de222bfc86b45688beac656ea62c309b30"},
+    {file = "mpl_tools-0.4.1.tar.gz", hash = "sha256:de49da3ff39fcd226e883dd319198495ec6cd81198b2c619760163217bc3a858"},
+]
+
+[package.dependencies]
+matplotlib = ">=3.7,<4.0"
+
+[[package]]
 name = "mslex"
 version = "1.3.0"
 description = "shlex for windows"
@@ -2799,4 +2814,4 @@ files = [
 [metadata]
 lock-version = "2.1"
 python-versions = ">=3.11,<4.0"
-content-hash = "a5b5551a46a2b02a4390d9ec313599963ed9fd1029a0ed78a9d0917dc3343238"
+content-hash = "fd87daf2f6413ada615e1251ae9a3499c0bb352f64f45fdcc116909ff6989b51"

@@ -16,6 +16,8 @@ xgboost = "^3.0.1"
 shap = "^0.47.2"
 folium = "^0.19.6"
 seaborn = "^0.13.2"
+mpl-tools = "^0.4.1"
+scipy = "^1.15.3"
 
 [tool.poetry.group.dev.dependencies]
 pytest = "^8.3.5"
